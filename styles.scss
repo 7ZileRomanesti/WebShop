@@ -1,0 +1,326 @@
+
+body {
+  width: 100%;
+  margin: auto;
+  font-family: "Futura Md BT";
+  color:#fafafa;
+
+}
+body{
+  background-image: url("back.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #424854;
+}
+
+
+header  {
+  background: 	rgb(43, 48, 56);
+  width: 100%;
+  height: 16%;
+  top:0;
+  position: fixed;
+
+}
+
+.LOGO {
+  float: left;
+  margin-left: 5%;
+  margin-top: 0;
+  width:200px;
+  height:80px;
+
+
+
+}
+
+li {
+  list-style: none;
+  font-family: "Futura Md BT";
+  color: white;
+  float: right;
+  margin-right: 5%;
+  padding-top: 25px;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+.part1 {
+  height: 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.part1 h2{
+  margin: 0;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size:5em;
+}
+
+.part2{ height: 55em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+p{
+  font-size:1.5em;
+  text-align: center;
+}
+
+.webshop{
+  padding-left: 10%;
+  padding-right: 10%;
+
+  padding-top: 30px;
+  height:2400px;
+  background-color:#424854;
+
+
+}
+.title2{ padding:10px;
+  font-family: "Droid Sans";
+  font-size:35px;
+  text-align: center;
+  color: #fafafa;
+
+}
+.title{
+  padding:10px;
+  font-family: "Droid Sans";
+  font-size:27px;
+  color: #fafafa;
+  text-align: start;
+
+}
+.subtitle{
+  font-family: "Droid Sans";
+  text-align: center;
+  font-size: 20px;
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 30px;
+}
+
+.dinning {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(2, 50%);
+  grid-template-areas: "img1 img2 img3 img4"
+"text1 text2 text3 text4";
+  padding-bottom: 20px;
+
+}
+.img1{
+  grid-area: img1;
+  width: 99%;
+
+  border:1.5px solid #2b3038;
+}
+.img2{
+  grid-area: img2;
+  width:99%;
+
+  border:1.5px solid #2b3038;
+}
+.img3{
+  grid-area:img3;
+  width:99%;
+
+  border:1.5px solid #2b3038;
+}
+.img4{
+  grid-area:img4;
+  max-width: 100%;
+  width:99%;
+
+  border:1.5px solid #2b3038;
+}
+ .bed{display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+   grid-template-rows: repeat(2, 50%);
+   grid-template-areas: "img5 img6 img7 img8"
+   "text5 text6 text7 text8";
+   padding-bottom: 20px;
+
+ }
+.img5{
+  grid-area: img5;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+.img6{
+  grid-area: img6;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+.img7{
+  grid-area: img7;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+.img8{
+  grid-area: img8;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+
+.liv {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(2, 50%);
+  grid-template-areas: "w1 w2 w3 w4"
+  "text5 text6 text7 text8";
+  padding-bottom: 20px;
+}
+
+
+.w1{
+  grid-area: w1;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+.w2{
+  grid-area: w2;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+.w3{
+  grid-area: w3;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+.w4{
+  grid-area: w4;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+
+
+.cc {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: repeat(2, 50%);
+  grid-template-areas: "c1 c2 c3 c4"
+  "text5 text6 text7 text8";
+  padding-bottom: 20px;
+}
+
+.c1{
+  grid-area: c1;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+.c2{
+  grid-area: c2;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+.c3{
+  grid-area: c3;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+.c4{
+  grid-area: c4;
+  width: 99%;
+
+  border:1.5px solid #2b3038;}
+
+
+
+.stories{
+  font-family: "Droid Sans";
+  font-size: 18px;
+  padding: 20px 40px 40px;
+
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  body {
+
+    font-size: 0.7em;
+
+  }
+  li {
+    padding-top: 45px;
+  }
+  }
+
+@media only screen and (max-width:600px) {
+  body {
+    font-size: 0.6em;
+  }
+  .part1 h2 {
+    top: 40%;
+  }
+  .part2 {
+    height: 60em;
+    font-size: 1.4em;
+  }
+
+
+  .dinning {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, 25%);
+    grid-template-areas: "img1" "img2" "img3" "img4";
+    padding-bottom: 20px;
+    width: 98%;
+  }
+  .bed {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, 25%);
+    grid-template-areas: "img5" "img6" "img7" "img8";
+    padding-bottom: 20px;
+    width: 98%;
+  }
+  .cc {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, 25%);
+    grid-template-areas: "c1" "c2" "c3" "c4";
+    padding-bottom: 20px;
+    width:98%;
+  }
+  .liv {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, 25%);
+    grid-template-areas: "w1" "w2" "w3" "w4";
+    width:98%;
+    padding-bottom: 20px;
+  }
+  .webshop{
+    height: 6000px;
+  }
+
+
+
+
+
+}
